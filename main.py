@@ -33,7 +33,7 @@ def count_of_stars(n):
     return count_of_stars(n-1)
 try:
     n=int(input("enter a count of stars"))
-    print(count_of_stars(5))
+    print(count_of_stars(n))
 except Exception as e:
     print("error")
 #count_of_stars(3)
